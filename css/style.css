@@ -1,0 +1,443 @@
+
+
+/*head--------------------------------------------------*/
+.page-header{
+    color: darkgray;
+    background-color: black;
+    height: 350px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#mypic{
+    position: relative;
+    left: 585px;
+    top:10px;
+}
+
+.home{
+    text-decoration: inherit;
+    position: absolute;
+    left:550px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: black;
+    border: 0px;
+    
+}
+
+.contact{
+    text-decoration: inherit;
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    left: 800px;
+    border: 0px;
+
+    
+}
+
+.contactmove{
+    position: absolute;
+    left: 4px;
+}
+
+.resume{
+    text-decoration: inherit;
+    position: absolute;
+    left:625px;
+    top: 280px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: black;
+    border: 0px;
+}
+
+.resumemove{
+    position: absolute;
+    right: 3px;
+}
+
+.about{
+    text-decoration: inherit;
+    position: absolute;
+    left:715px;
+    top: 280px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: black;
+    border: 0px;
+}
+
+
+
+
+
+.background-word{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+    color: floralwhite;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    
+}
+
+.background-word-two{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+    color: floralwhite;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+/*----------------------------------------head*/
+
+/*body--------*/
+
+#p{
+/*
+    background-image: url("../image/blacksuit.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 550px;
+*/
+    padding: 0;
+}
+
+
+.body{
+    display: block;
+    overflow: hidden;
+    font-family: "open sans", sans-serif;
+    word-wrap: break-word;
+}
+/*----------body*/
+
+@media (min-width: 375px) {
+    .background-word{
+        font-size: 20px;
+        left: 20px;
+        top: 250px;
+    }
+    
+    .background-word-two{
+        font-size: 20px;
+        right: 0px;
+        top: 250px;
+    }
+    .home{
+        top: 280px;
+        left: 55px;
+    }
+    
+    .resume{
+        top: 280px;
+        left: 125px;
+    }
+    
+    .about{
+        top: 280px;
+        left:195px;
+    }
+    
+    .contact{
+        top: 280px;
+        left:265px;
+    }
+    
+    #mypic{
+        left: 70px;
+    }
+    
+    #p{
+        height: 400px;
+        position: relative;
+        
+    }
+    
+    #particles{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 992;
+    }
+    
+    .suit{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 480px) {
+    .background-word{
+        font-size: 30px;
+        left: 20px;
+        top: 250px;
+    }
+    
+    .background-word-two{
+        font-size: 30px;
+        right: 0px;
+        top: 250px;
+    }
+    .home{
+        top: 180px;
+        left: 70px;
+    }
+    
+    .resume{
+        top: 280px;
+        left: 150px;
+    }
+    
+    .about{
+        top: 280px;
+        left:280px;
+    }
+    
+    .contact{
+        top: 180px;
+        left:370px;
+    }
+    
+    #mypic{
+        left: 125px;
+    }
+    
+    #particles{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .suit{
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .background-word{
+        font-size: 50px;
+        left: 20px;
+        top: 120px;
+    }
+    
+    .background-word-two{
+        font-size: 50px;
+        right: 0px;
+        top: 120px;
+    }
+    .home{
+        top: 220px;
+        left: 190px;
+    }
+    
+    .resume{
+        top: 280px;
+        left: 280px;
+    }
+    
+    .about{
+        top: 280px;
+        left:430px;
+    }
+    
+    .contact{
+        top: 220px;
+        left:520px;
+    }
+    
+    #mypic{
+        left: 260px;
+    }
+    
+    #particles{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .suit{
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .background-word{
+        font-size: 50px;
+        left: 20px;
+        top: 120px;
+    }
+    
+    .background-word-two{
+        font-size: 50px;
+        right: 0px;
+        top: 120px;
+    }
+    .home{
+        top: 220px;
+        left: 280px;
+    }
+    
+    .resume{
+        top: 280px;
+        left: 380px;
+    }
+    
+    .about{
+        top: 280px;
+        left:550px;
+    }
+    
+    .contact{
+        top: 220px;
+        left:650px;
+    }
+    
+    #mypic{
+        left: 375px;
+    }
+    
+    #particles{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .suit{
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .background-word{
+        font-size: 70px;
+        left: 200px;
+        top: 120px;
+    }
+    
+    .background-word-two{
+        font-size: 70px;
+        right: 70px;
+        top: 120px;
+    }
+    .home{
+        top: 220px;
+        left: 380px;
+    }
+    
+    .resume{
+        top: 280px;
+        left: 480px;
+    }
+    
+    .about{
+        top: 280px;
+        left:650px;
+    }
+    
+    .contact{
+        top: 220px;
+        left:750px;
+    }
+    
+    #mypic{
+        left: 485px;
+    }
+    
+    #particles{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .suit{
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .background-word{
+        font-size: 90px;
+        left: 200px;
+        top: 120px;
+    }
+    
+    .background-word-two{
+        font-size: 90px;
+        right: 70px;
+        top: 120px;
+    }
+    .home{
+        top: 220px;
+        left: 500px;
+    }
+    
+    .resume{
+        top: 280px;
+        left: 600px;
+    }
+    
+    .about{
+        top: 280px;
+        left:800px;
+    }
+    
+    .contact{
+        top: 220px;
+        left:900px;
+    }
+    
+    #mypic{
+        left: 605px;
+    }
+    
+    #particles{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .suit{
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
+
